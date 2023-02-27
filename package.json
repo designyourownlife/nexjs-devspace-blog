@@ -2,10 +2,13 @@
   "name": "devspace-blog",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "cache-posts": "node scripts/cache.js",
+    "prepare": "husky install",
     "lint": "next lint"
   },
   "dependencies": {
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "husky": "^8.0.3",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.7"
   }

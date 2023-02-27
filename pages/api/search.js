@@ -7,7 +7,8 @@ import matter from 'gray-matter';
 export default function handler(req, res) {
   let posts;
   if (process.env.NODE_ENV === 'production') {
-    //@todo - fetch from cache
+    // Fetch from cache
+    posts = require('../../cache/data').posts;
   } else {
     const files = fs.readdirSync(path.join('posts'));
 
