@@ -3,7 +3,7 @@ title: 'Dockerize Your ReactJS App'
 date: 'March 3, 2022'
 excerpt: 'In this article, we’ll explore the benefits of Dockerizing your ReactJS application and provide examples of how to do it.'
 cover_image: '/images/posts/img8.jpg'
-category: 'JavasScript'
+category: 'JavaScript'
 author: 'Shamaz Saeed'
 author_image: 'https://randomuser.me/api/portraits/men/27.jpg'
 ---
